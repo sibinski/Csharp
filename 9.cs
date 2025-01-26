@@ -8,7 +8,7 @@ public class evenNumber
         do
         {
 
-            Console.WriteLine("Please enter number between 1 and 10: ");
+            Console.WriteLine("Please enter even number in a range between 1 and 10: ");
             number = int.Parse(Console.ReadLine());
             if (number %2 == 0 && number>=1 && number <= 10)
             {

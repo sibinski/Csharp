@@ -29,11 +29,12 @@ public class Schedule
                 Console.WriteLine("For " + weekDay + " is deployment scheduled!");
                 break;
                 case "Saturday":
-		case "Sunday":
+                case "Sunday":
                 Console.WriteLine("For " + weekDay + " is nothing scheduled!");
                 break;
 		default:
 		Console.WriteLine("No task assigned!");
+        break;
             }
 
         }
